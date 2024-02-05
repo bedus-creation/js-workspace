@@ -1,0 +1,14 @@
+{
+    "name": "formjs-dev-example",
+    "type": "module",
+    "private": true,
+    "version": "0.0.6",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "version": "npm pkg set dependencies.formjs-dev-vue3=$npm_package_version"
+    },
+    "dependencies": {
+        "formjs-dev-vue3": "0.0.6"
+    }
+}

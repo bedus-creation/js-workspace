@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "npm run build --workspaces",
+        "link": "npm link --workspaces",
+        "test": "npm run test --workspaces --if-present"
+    },
+    "workspaces": [
+        "packages/core",
+        "packages/vue3",
+        "example/vue3"
+    ]
+}
